@@ -2,7 +2,7 @@
 A Sci-Fi Web Experience in Responsive Design
 
 <p align="center">
-  <img src="https://github.com/irllyliketoast/Voyage-to-Virelia/blob/c953b12bd24fd23ead021f1af720e9fb92a32ff1/images/virelia-planet.png" width="1500" height ="500">
+  <img src="https://github.com/irllyliketoast/Voyage-to-Virelia/blob/c953b12bd24fd23ead021f1af720e9fb92a32ff1/images/virelia-planet.png" width="1500" height ="800">
 </p>
 
 ## Project Overview  
