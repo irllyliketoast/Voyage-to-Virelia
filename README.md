@@ -1,8 +1,8 @@
-# Voyage to Virelia 🌌🪐  
+# Voyage to Virelia   
 A Sci-Fi Web Experience in Responsive Design
 
 <p align="center">
-  <img src="https://github.com/irllyliketoast/Voyage-to-Virelia/blob/ff9c6b1a3ca3bc324191185a7854b16ec52a0f23/images/Landed.jpg" width="1500" height ="300">
+  <img src="https://github.com/irllyliketoast/Voyage-to-Virelia/blob/c953b12bd24fd23ead021f1af720e9fb92a32ff1/images/virelia-planet.png" width="1500" height ="1500">
 </p>
 
 ## Project Overview  
