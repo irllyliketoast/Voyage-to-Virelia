@@ -1,6 +1,10 @@
 # Voyage to Virelia 🌌🪐  
 A Sci-Fi Web Experience in Responsive Design
 
+<p align="center">
+  <img src="https://github.com/irllyliketoast/Voyage-to-Virelia/blob/ff9c6b1a3ca3bc324191185a7854b16ec52a0f23/images/Landed.jpg" width="1500" height ="300">
+</p>
+
 ## Project Overview  
 This mini-project is part of my Management Information Systems (UNCW MIS 310) class. The objective was to create a responsive webpage using **CSS variables** and **CSS grid**. I chose to build a fictional space exploration site for the planet **Virelia**, blending creative storytelling with technical implementation. This project refines my skills in CSS layout design, accessibility, and user interactivity through a sci-fi lens.
 
