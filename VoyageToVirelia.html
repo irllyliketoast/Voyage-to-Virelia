@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Voyage to Virelia</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="planetStyles.css">
+  <script src="planetScript.js" defer></script>
+</head>
+<body>
+
+  <!-- Sticky Header with Title and Theme Toggle -->
+  <header>
+    <h1>Voyage to Virelia</h1>
+    <button id="themeToggle" aria-label="Toggle Day and Night Mode">🌓</button>
+  </header>
+
+  <!-- Main Content Grid -->
+  <main>
+
+	<section class="grid-container" aria-label="Planetary Feature Cards">
+
+	  <div class="planet-card" tabindex="0" role="button"
+		   aria-haspopup="dialog" aria-label="View details about Gravity"
+		   data-title="Gravity"
+		   data-content="Virelia's gravity is 2.7 times that of Earth, making every step feel heavy and deliberate.">
+		<img src="icons/gravity.png" alt="Gravity Icon" class="card-icon">
+		<h2>Gravity</h2>
+		<p>2.7x Earth</p>
+	  </div>
+
+	  <div class="planet-card" tabindex="0" role="button"
+		   aria-haspopup="dialog" aria-label="View details about Climate"
+		   data-title="Climate"
+		   data-content="Virelia experiences arid solar flares, with atmospheric storms every 12 cycles.">
+		<img src="icons/climate.png" alt="Climate Icon" class="card-icon">
+		<h2>Climate</h2>
+		<p>Arid & Stormy</p>
+	  </div>
+
+	  <div class="planet-card" tabindex="0" role="button"
+		   aria-haspopup="dialog" aria-label="View details about Orbit Duration"
+		   data-title="Orbit Duration"
+		   data-content="Virelia takes 642 Earth days to orbit its parent star, Lumion Z-9.">
+		<img src="icons/orbit.png" alt="Orbit Icon" class="card-icon">
+		<h2>Orbit Duration</h2>
+		<p>642 Earth Days</p>
+	  </div>
+
+	  <div class="planet-card" tabindex="0" role="button"
+		   aria-haspopup="dialog" aria-label="View details about Star"
+		   data-title="Host Star"
+		   data-content="Virelia orbits Lumion Z-9, a blue giant known for its intense radiation.">
+		<img src="icons/star.png" alt="Star Icon" class="card-icon">
+		<h2>Host Star</h2>
+		<p>Lumion Z-9</p>
+	  </div>
+
+	  <div class="planet-card" tabindex="0" role="button"
+		   aria-haspopup="dialog" aria-label="View details about Galaxy"
+		   data-title="Galaxy"
+		   data-content="Located in the Velari Spiral, Virelia lies 88,000 light-years from Earth.">
+		<img src="icons/galaxy.png" alt="Galaxy Icon" class="card-icon">
+		<h2>Galaxy</h2>
+		<p>Velari Spiral</p>
+	  </div>
+
+	    <div class="planet-card" tabindex="0" role="button"
+		   aria-haspopup="dialog" aria-label="View details about Moons"
+		   data-title="Moons"
+		   data-content="Virelia has 3 icy moons: Nira, Velis, and Dromos. Each has its own orbit pattern.">
+		  <img src="icons/moon.png" alt="Moon Icon" class="card-icon">
+		  <h2>Moons</h2>
+		  <p>Nira, Velis, Dromos</p>
+	    </div>
+
+	    <div class="planet-card" tabindex="0" role="button"
+		    aria-haspopup="dialog" aria-label="View details about Biosphere"
+		    data-title="Biosphere"
+		    data-content="Though hostile to humans, Virelia hosts bio-luminescent flora and floating algae fields.">
+			<img src="icons/bio.png" alt="Bioluminescence Icon" class="card-icon">
+			<h2>Biosphere</h2>
+			<p>Alien Flora</p>
+	    </div>
+
+	    <div class="planet-card" tabindex="0" role="button"
+		   aria-haspopup="dialog" aria-label="View details about Surface Composition"
+		   data-title="Surface Composition"
+		   data-content="Rocky and iron-rich, with veins of shimmering blue crystal scattered across ridges.">
+			<img src="icons/surface.png" alt="Surface Icon" class="card-icon">
+			<h2>Surface</h2>
+			<p>Iron & Crystal</p>
+	    </div>
+
+		<div class="planet-card" tabindex="0" role="button"
+			 aria-haspopup="dialog" aria-label="View details about Magnetic Field"
+			 data-title="Magnetic Field"
+			 data-content="Virelia’s magnetic field is unusually strong, deflecting most solar radiation and creating vivid auroras.">
+		  <img src="icons/magnetic.png" alt="Magnetic Field Icon" class="card-icon">
+		  <h2>Magnetic Field</h2>
+		  <p>Extreme Auroras</p>
+		</div>
+
+		<div class="planet-card" tabindex="0" role="button"
+			 aria-haspopup="dialog" aria-label="View details about Rings"
+			 data-title="Planetary Rings"
+			 data-content="A fragmented ring system made of crystalline dust encircles the equator.">
+		  <img src="icons/rings.png" alt="Planetary Rings Icon" class="card-icon">
+		  <h2>Rings</h2>
+		  <p>Crystal Dust</p>
+		</div>
+
+		<div class="planet-card" tabindex="0" role="button"
+			 aria-haspopup="dialog" aria-label="View details about Temperature"
+			 data-title="Temperature"
+			 data-content="Average surface temperature ranges from -80°C at night to 120°C during solar exposure.">
+		  <img src="icons/temperature.png" alt="Temperature Icon" class="card-icon">
+		  <h2>Temperature</h2>
+		  <p>-80°C to 120°C</p>
+		</div>
+
+		<div class="planet-card" tabindex="0" role="button"
+			 aria-haspopup="dialog" aria-label="View details about Colonization Status"
+			 data-title="Colonization Status"
+			 data-content="Virelia remains uncolonized due to its volatile terrain and atmosphere, though research probes are active.">
+		  <img src="icons/colony.png" alt="Colonization Icon" class="card-icon">
+		  <h2>Status</h2>
+		  <p>Uncolonized</p>
+		</div>
+
+		<div class="planet-card" tabindex="0" role="button"
+			 aria-haspopup="dialog" aria-label="View details about Transportation"
+			 data-title="Transportation"
+			 data-content="Landing zones are limited to polar caps; hovercraft required for surface movement.">
+		  <img src="icons/transport.png" alt="Transportation Icon" class="card-icon">
+		  <h2>Transport</h2>
+		  <p>Hovercraft Only</p>
+		</div>
+
+		<div class="planet-card" tabindex="0" role="button"
+			 aria-haspopup="dialog" aria-label="View details about Atmospheric Composition"
+			 data-title="Atmosphere"
+			 data-content="The air contains 84% hydrogen, 10% nitrogen, and 6% reactive plasma particulates.">
+		  <img src="icons/atmosphere.png" alt="Atmosphere Icon" class="card-icon">
+		  <h2>Atmosphere</h2>
+		  <p>Hydrogen-Rich</p>
+		</div>
+
+		<div class="planet-card" tabindex="0" role="button"
+			 aria-haspopup="dialog" aria-label="View details about Neighboring Planets"
+			 data-title="Neighboring Planets"
+			 data-content="Shares the Zeta-9 system with four other exoplanets: Cygna, Juno, Mareth, and Threx.">
+		  <img src="icons/neighbors.png" alt="Neighbor Planets Icon" class="card-icon">
+		  <h2>System</h2>
+		  <p>Cygna, Threx...</p>
+		</div>
+
+		<div class="planet-card" tabindex="0" role="button"
+			 aria-haspopup="dialog" aria-label="View details about Artificial Satellites"
+			 data-title="Satellites"
+			 data-content="Three orbiting satellites scan and transmit surface data to the Velari observatory.">
+		  <img src="icons/satellites.png" alt="Satellite Icon" class="card-icon">
+		  <h2>Satellites</h2>
+		  <p>3 Orbiting</p>
+		</div>
+
+
+	</section>
+
+
+  </main>
+
+  <!-- Modal Mini Page (hidden by default) -->
+  <div id="modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-content">
+      <button class="close-modal" aria-label="Close popup">✖</button>
+      <h2 id="modalTitle">Gravity</h2>
+      <p>Full details about the selected planet feature will appear here.</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

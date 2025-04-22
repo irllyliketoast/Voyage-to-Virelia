@@ -1,0 +1,107 @@
+/* Full-screen galaxy background with animated starfield */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: url('images/space-bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+  overflow: hidden;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+/* Center container */
+.galaxy-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  position: relative;
+  text-align: center;
+  z-index: 1;
+}
+
+/* Title text */
+.loading-text {
+  color: #ffffff;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  margin-top: -25px; /* Nudge upward */
+  animation: fadeIn 2s ease-in-out;
+  z-index: 2;
+}
+
+/* Planet wrapper ensures consistent hover area */
+.planet-wrapper {
+  position: relative;
+  display: inline-block;
+  padding: 20px;
+  border-radius: 50%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  z-index: 2;
+}
+
+/* Planet starts hidden and only animates position, NOT scale */
+.planet {
+  width: 200px;
+  height: auto;
+  display: block;
+  pointer-events: none; /* So hover applies to wrapper, not image */
+  opacity: 0;
+  animation: arrive 2s forwards ease-in-out;
+}
+
+/* Apply hover directly — no variable */
+.planet-wrapper.arrived:hover {
+  transform: scale(1.3);
+  box-shadow: 0 0 25px 5px salmon;
+}
+
+/* Fade overlay during transition */
+.fade-out {
+  animation: fadeOut 1s forwards ease-in-out;
+}
+
+/* Only animate movement for planet */
+@keyframes arrive {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeOut {
+  to {
+    opacity: 0;
+    filter: blur(10px);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Glitch keyframes */
+@keyframes glitch {
+  0% { transform: translate(0); opacity: 1; }
+  20% { transform: translate(-2px, 2px); opacity: 0.8; }
+  40% { transform: translate(2px, -2px); opacity: 1; }
+  60% { transform: translate(-1px, 1px); opacity: 0.9; }
+  80% { transform: translate(1px, -1px); opacity: 1; }
+  100% { transform: translate(0); opacity: 1; }
+}
+.glitch-flicker {
+  display: inline-block;
+  animation: glitch 0.2s infinite alternate;
+}
