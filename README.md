@@ -34,13 +34,13 @@ A separate loading page features a glitching text animation and animated planet 
 
 ## Languages Used  
 
-- ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
   - Semantic structure for content, navigation, and modal elements  
-- ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) 
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) 
   - CSS Variables (`:root`) for consistent design values  
   - CSS Grid and media queries for responsive layout  
   - Keyframe animations and hover transitions  
-- ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)  
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)  
   - Modal logic and keyboard event handling  
   - Dynamic glitch-text loader  
   - Theme toggle interactivity
