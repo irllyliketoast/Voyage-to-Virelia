@@ -32,7 +32,7 @@ A separate loading page features a glitching text animation and animated planet 
 
 ---
 
-## Technology Used  
+## Languages Used  
 
 - **HTML**: Semantic structure for content, navigation, and modal elements  
 - **CSS**:  
