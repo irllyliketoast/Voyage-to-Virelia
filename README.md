@@ -32,7 +32,7 @@ A separate loading page features a glitching text animation and animated planet 
 
 ---
 
-## Languages Used  
+## Technology Stack
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=flat-square&logo=html5&logoColor=white)
   - Semantic structure for content, navigation, and modal elements
